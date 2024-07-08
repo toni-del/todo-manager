@@ -1,0 +1,17 @@
+{
+  "name": "todo",
+  "preferGlobal": true,
+  "bin": "./index.js",
+  "version": "1.0.0",
+  "description": "Application to manage to do list",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "toni-del",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "inquirer": "^9.3.4"
+  }
+}
